@@ -1,0 +1,149 @@
+/* ===== GLOBAL ===== */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg,#f4f1ff,#ffffff);
+  color: #2c2c2c;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 35px;
+
+  background: linear-gradient(90deg,#6a11cb,#9b4dff);
+  color: white;
+
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.navbar h2 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  opacity: 0.75;
+  transform: translateY(-1px);
+}
+
+/* ===== MAIN CONTAINER ===== */
+
+.container {
+  max-width: 850px;
+  margin: 50px auto;
+  padding: 35px;
+
+  background: white;
+  border-radius: 18px;
+
+  box-shadow: 0 15px 40px rgba(106,17,203,0.12);
+}
+
+/* ===== TEXTAREA ===== */
+
+textarea {
+  width: 100%;
+  height: 190px;
+  margin-top: 15px;
+  padding: 15px;
+
+  border-radius: 12px;
+  border: 2px solid #eee;
+
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 15px rgba(106,17,203,0.25);
+}
+
+/* ===== BUTTONS ===== */
+
+button {
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+/* Purple buttons */
+
+button:not(.clear-btn) {
+  background: linear-gradient(45deg,#6a11cb,#9b4dff);
+  color: white;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* ===== CLEAR BUTTON (RED) ===== */
+
+.clear-btn {
+  background: linear-gradient(45deg,#ff416c,#ff4b2b);
+  color: white;
+  margin-top: 15px;
+}
+
+.clear-btn:hover {
+  box-shadow: 0 6px 18px rgba(255,65,108,0.4);
+}
+
+/* ===== ALERT ===== */
+
+.alert {
+  width: 80%;
+  margin: 15px auto;
+  padding: 12px;
+  border-radius: 10px;
+
+  text-align: center;
+
+  background: linear-gradient(45deg,#6a11cb,#9b4dff);
+  color: white;
+
+  font-weight: 500;
+}
+
+/* ===== CARDS ===== */
+
+.card {
+  background: #faf8ff;
+  padding: 22px;
+  margin-top: 18px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+/* ===== SUMMARY ===== */
+
+.summary {
+  margin-top: 25px;
+}
